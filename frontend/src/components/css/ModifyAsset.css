@@ -1,0 +1,64 @@
+.modify-assets-container {
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .header-title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .assets-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .asset-item {
+    margin-bottom: 20px;
+  }
+  
+  .category {
+    color: #777;
+  }
+  
+  .delete-button {
+    padding: 8px;
+    border: none;
+    border-radius: 3px;
+    background-color: #e74c3c;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .delete-button:hover {
+    background-color: #c0392b;
+  }
+  
+  .update-link {
+    color: #3498db;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  .divider {
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  .message {
+    color: #f00;
+  }
+  
+  .go-back-link {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #3498db;
+  }

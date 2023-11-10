@@ -1,0 +1,33 @@
+/* NormalEmployeeDashboard.css */
+.dashboard-container {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 250px;
+    background-color: #333;
+    color: white;
+  }
+  
+  .header,
+  footer {
+    padding: 20px;
+    background-color: #222;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav li {
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .workspace {
+    flex: 1;
+    padding: 20px;
+  }
+  

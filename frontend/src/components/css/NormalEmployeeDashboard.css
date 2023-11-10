@@ -1,0 +1,45 @@
+normal-employee-dashboard {
+    margin: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  h1 {
+    font-size: 33px;
+    color: #0c0a0a;
+    margin-bottom: 20px;
+  }
+  
+  nav {
+    margin-top: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: table;
+  }
+  
+  nav li {
+    display: table-row;
+    margin-bottom: 20px; 
+  }
+  
+  nav a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #fdfbfb;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    display: table-cell; 
+  }
+  
+  nav a:hover {
+    background-color: #2ca3e3;
+  }
+  
+  .routes-container {
+    margin-top: 20px;
+  }
